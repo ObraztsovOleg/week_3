@@ -4,6 +4,7 @@
       "Access-Control-Allow-Origin": "*"
     },
     "/promise/*": {
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
     }
   }
