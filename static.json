@@ -2,6 +2,9 @@
   "headers": {
     "/*/*": {
       "Access-Control-Allow-Origin": "*"
+    },
+    "/week_3/public_html/promise": {
+      "Content-Type": "text/plain; charset=UTF-8"
     }
   }
 }
