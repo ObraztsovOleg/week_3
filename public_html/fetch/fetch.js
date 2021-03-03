@@ -1,8 +1,9 @@
-function fetch() {
-    var url = getElementById('inp').textContent;
+document.getElementById("bt").addEventListener('click', (async e => {
+    let inp = document.getElementById("inp");
+    let url = inp.value;
     let response = await fetch(url);
-    console.log(url);
-}
-
-var btn = getElementById('bt');
-btn.addEventListener('click', fetch());
+    if(response.ok) {
+        let text = await response.text();
+        inp.value = text;
+    }
+}));
