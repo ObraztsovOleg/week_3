@@ -1,5 +1,8 @@
-new Clicker(async e => {
-    url = getElementById('inp').innerHTML;
+function fetch() {
+    var url = getElementById('inp').textContent;
     let response = await fetch(url);
     console.log(url);
-}, caption = "ЩЁлкни")
+}
+
+var btn = getElementById('bt');
+btn.addEventListener('click', fetch());
