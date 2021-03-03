@@ -1,9 +1,13 @@
 {
   "headers": {
-    "/**": {
+    "/fetch/*": {
       "Access-Control-Allow-Origin": "*"
     },
     "/promise/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    }
+    "/login/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
     }
